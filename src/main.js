@@ -9,6 +9,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/main.css';
 
 import router from './router'
+import wb from "./registerServiceWorker";
+
+Vue.prototype.$workbox = wb;
 
 
 Vue.config.productionTip = false
