@@ -80,6 +80,17 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card mt-4">
+              <img :src="buyPayments" alt="Sitio web creado con expressjs" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Sitio web desarrollado con expressjs, MySql, Stripe, Nodejs, Bootstap Css</h5>
+                <p class="card-text">Sitio de ventas de productos.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -96,7 +107,8 @@ export default {
       bytechWeb: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/bytech-web.png',
       vitalviWeb: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/vitalvi-web.png',
       cbta: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/cbta258.png',
-      techDesign: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/tech-design.png'
+      techDesign: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/tech-design.png',
+      buyPayments: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/buy-payments.png'
     }
   }
 }
