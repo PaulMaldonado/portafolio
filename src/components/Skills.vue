@@ -25,6 +25,16 @@
                          <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">90%</div>
                       </div>
 
+                      <p class="mt-4 html">Bootstrap Css</p>
+                      <div class="progress">
+                         <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">90%</div>
+                      </div>
+
+                      <p class="mt-4 html">Materialize Css</p>
+                      <div class="progress">
+                         <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">90%</div>
+                      </div>
+
                       <p class="mt-4 html">PHP</p>
                       <div class="progress">
                          <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
@@ -33,6 +43,31 @@
                       <p class="mt-4 html">JavaScript</p>
                       <div class="progress">
                          <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">90%</div>
+                      </div>
+
+                      <p class="mt-4 html">Node.js</p>
+                      <div class="progress">
+                         <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">90%</div>
+                      </div>
+
+                      <p class="mt-4 html">Express.js</p>
+                      <div class="progress">
+                         <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">90%</div>
+                      </div>
+
+                      <p class="mt-4 html">Electron.js</p>
+                      <div class="progress">
+                         <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">90%</div>
+                      </div>
+
+                      <p class="mt-4 html">MySql</p>
+                      <div class="progress">
+                         <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">90%</div>
+                      </div>
+
+                      <p class="mt-4 html">Mongodb</p>
+                      <div class="progress">
+                         <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">90%</div>
                       </div>
                       
                   </div>
@@ -83,6 +118,6 @@ export default {
 
     .icono-web {
         width: 100%;
-        height: 50vh;
+        height: 60vh;
     }
 </style>

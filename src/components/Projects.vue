@@ -67,6 +67,19 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card mt-4">
+              <img :src="techDesign" alt="Sitio web para tech design" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Sitio web desarrollado para Tech Design</h5>
+                <p class="card-text">Sitio Web creado para Tech Design.
+                </p>
+
+                <a href="https://techdesign.netlify.app/" target="_blank" class="btn btn-botton-color">Visita el sitio web</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -82,7 +95,8 @@ export default {
       sitioWeb: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/sitio-web-internetmx.png',
       bytechWeb: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/bytech-web.png',
       vitalviWeb: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/vitalvi-web.png',
-      cbta: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/cbta258.png'
+      cbta: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/cbta258.png',
+      techDesign: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/tech-design.png'
     }
   }
 }
