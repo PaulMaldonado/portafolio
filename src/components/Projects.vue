@@ -12,7 +12,7 @@
                   Internetmx
                 </p>
 
-                <a href="https://internetmx.com.mx/customer/master/index.php/" target="_blank" class="btn btn-botton-color">Visita el sitio web</a>
+                <a href="https://internetmx.com.mx/customer/master/index.php" target="_blank" class="btn btn-botton-color">Visita el sitio web</a>
               </div>
             </div>
           </div>
@@ -54,6 +54,19 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card mt-4">
+              <img :src="cbta" alt="Sitio web del cbta258" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Sitio web para preparatoria cbta258</h5>
+                <p class="card-text">Sitio Web creado para preparatoria cbta 258.
+                </p>
+
+                <a href="https://cbta258.vercel.app/" target="_blank" class="btn btn-botton-color">Visita el sitio web</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -68,7 +81,8 @@ export default {
       gestionClient: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/gestion-clientes-web.png',
       sitioWeb: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/sitio-web-internetmx.png',
       bytechWeb: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/bytech-web.png',
-      vitalviWeb: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/vitalvi-web.png'
+      vitalviWeb: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/vitalvi-web.png',
+      cbta: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/cbta258.png'
     }
   }
 }
