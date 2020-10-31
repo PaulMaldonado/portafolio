@@ -8,7 +8,7 @@
                   y me encanta estar aprendiendo constamente sobre nuevos temas y tecnologías.
               </p>
               <div class="row mt-4">
-                  <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                  <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3 mt-4">
                       <p class="mt-4">
                           <img :src="html" alt="HTML5" class="card-img-top html">
                           HTML5
@@ -18,7 +18,7 @@
                       </div>
                   </div>
 
-                  <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                  <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3 mt-4">
                       <p class="mt-4">
                           <img :src="css" alt="Css" class="card-img-top css">
                           Css3
@@ -28,7 +28,7 @@
                       </div>
                   </div>
 
-                  <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                  <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3 mt-4">
                       <p class="mt-4">
                           <img :src="bootstrap" alt="Bootstrap css" class="card-img-top bootstrap">
                           Bootstrap
@@ -38,7 +38,7 @@
                       </div>
                   </div>
 
-                  <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                  <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3 mt-4">
                       <p class="mt-4">
                           <img :src="javascript" alt="JavaScript" class="card-img-top javascript">
                           JavaScript
