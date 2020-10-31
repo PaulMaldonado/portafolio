@@ -4,11 +4,19 @@
           <div class="container">
               <div class="row">
                   <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 text-lg-left text-center ml-auto mr-auto">
-                      <h1 class="title-banner">Hola soy Jorge Paúl Maldonado Núñez</h1>
+                      <h1 class="title-banner">!Hola✌! soy Jorge Paúl.</h1>
                       <hr>
-                      <p class="description-over-me mt-4">Web Developer y un apasionado de la tecnólogía.</p>
+                      <p class="description-over-me mt-2">
+                          Soy Frontend Developer actualmente estoy enfocado al mundo del desarrollo web con JavaScript,
+                          Vue.js y Express.js, entre otros más. 
+                          <br><br>
 
-                      <a class="btn btn-lg btn-color mt-4">Ver curriculum</a>
+                          Mi objetivo es poder seguir aprediendo y mejorando mis habilidades como Desarrollador Frontend.
+                          <br><br>
+
+                          Si te gustaria saber más sobre mí, buscame en mis redes sociales que las podras encontrar
+                          en el footer.
+                      </p>
                   </div>
 
                   <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8 d-lg-block d-none">
@@ -24,7 +32,7 @@
 export default {
     data() {
         return {
-            heroImage: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/hero-image.svg'
+            heroImage: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/code-banner.svg'
         }
     }
 }
@@ -32,38 +40,31 @@ export default {
 
 <style scoped>
     .hero-banner {
-        background: #141E30;
-        background: -webkit-linear-gradient(to right, #243B55, #141E30);
-        background: linear-gradient(to right, #243B55, #141E30);
+        background-color: rgb(255, 255, 255);
         max-width: 100%;
         height: 90vh;
     }
 
     .title-banner {
         font-size: 50px;
-        color: #FFFFFF;
+        color: #243746;
         font-weight: bold;
-        margin-top: 120px;
+        margin-top: 135px !important;
     }
 
     .description-over-me {
         font-size: 18px;
-        color: #FFFFFF;
+        color: #243746;
         font-weight: normal;
     }
 
     .hero-image {
-        width: 100%;
-        height: 90vh;
-    }
-
-    .btn-color {
-        background-color: #D0CDE1;
-        color:#1F1F1F;
+        max-width: 100%;
+        height: 100vh;
     }
 
     hr {
-        background-color:  #FFFFFF;
-        padding: 2px;
+        background-color: #5DD286;
+        padding: 4px;
     }
 </style>

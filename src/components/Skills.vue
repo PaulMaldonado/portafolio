@@ -4,13 +4,13 @@
           <div class="container">
               <div class="row">
                   <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 text-lg-left text-center ml-auto mr-auto">
-                      <h1 class="skills-title mt-3">Sobre mí</h1>
+                      <h1 class="skills-title">Sobre mí</h1>
                       <img :src="imgOverMe" alt="Incono web development" class="d-lg-block d-none icono-web">
                   </div>
 
                   <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8">
-                      <p class="over-me mt-3">
-                          Mí nombre es Jorge Paúl Maldonado Núñez y soy originario de Guadalajara jal. Soy Desarrollador Web, las Tecnologías que más me apacionan son: Javascript, PHP. Soy un apacionado de la Tecnología
+                      <p class="over-me">
+                          Mí nombre es Jorge Paúl Maldonado Núñez y soy originario de Guadalajara jal. Soy Desarrollador Frontend, las Tecnologías que más me apacionan son: Javascript y PHP. Soy un apacionado de la Tecnología
                           y me encanta estar aprendiendo constamente sobre nuevos temas y tecnologías.
 
                       <h5 class="h1 mt-4 skills">Skills</h5>
@@ -98,12 +98,14 @@ export default {
         font-size: 50px;
         color: #39374E;
         font-weight: bold;
+        margin-top: 80px;
     }
 
     .over-me {
         font-size: 1em;
         color: #39374E;
         font-weight: normal;
+        margin-top: 80px;
     }
 
     .skills {

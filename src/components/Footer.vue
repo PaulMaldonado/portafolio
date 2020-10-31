@@ -1,56 +1,78 @@
 <template>
   <div>
-      <footer class="pt-4 border-top footer">
-        <div class="container">
-            <div class="row">
-            <div class="col-12 col-md">
-                <h5 class="mb-2">{{ this.logo }}</h5>
-                <img :src="footerLogo" alt="Logo footer" class="logo-footer">
-                <small class="d-block mb-3 text-muted">&copy; 2020-2021</small>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Twitter</h5>
-                <ul class="list-unstyled text-small">
-                    <li>
-                        <a class="text-muted" href="https://twitter.com/jpaulmn" target="_blank">
-                            <img :src="iconTwitter" alt="Twitter" class="twitter">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>GitHub</h5>
-                <ul class="list-unstyled text-small">
-                    <li>
-                        <a class="text-muted" href="https://github.com/PaulMaldonado" target="_blank">
-                            <img :src="iconGithub" alt="GitHub" class="github">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Instagram</h5>
-                <ul class="list-unstyled text-small">
-                    <li>
-                        <a class="text-muted" href="https://www.instagram.com/jpaulmn" target="_blank">
-                            <img :src="iconInstagram" alt="Instagram" class="instagram">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-         </div>
-        </div>
-      </footer>
-    </div>
+      <footer>
+            <footer class="page-footer font-small pt-4">
+                <div class="container text-center text-md-left">
+            
+                  <div class="row">
+              
+                
+                    <div class="col-md-6 col-lg-6 mr-auto my-md-4 my-0 mt-4 mb-1">
+              
+                      <img src="../../public/paul-logo.jpg" alt="Logo" class="img-responsive logo-footer"><br><br>
+                      <h5 class="font-weight-bold text-uppercase mb-4 title-footer">Jorge Paúl</h5>
+                      <p class="text-muted">
+                        Soy Frontend Developer actualmente estoy enfocado al mundo del desarrollo web con JavaScript,
+                        Vue.js y Express.js, entre otros más.
+                      </p>
+              
+                    </div>
+              
+                    <hr class="clearfix w-100 d-md-none border-color">
+              
+              
+                    <div class="col-md-4 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
+              
+                      <h5 class="font-weight-bold text-uppercase mb-4 socials">Redes sociales</h5>
+              
+                      <ul class="list-unstyled">
+                        <li>
+                        <p>
+                            <a class="text-muted" href="https://twitter.com/jpaulmn" target="_blank">
+                                <img :src="iconTwitter" alt="Twitter" class="card-img-top twitter">
+                                Twitter
+                            </a>
+                         </p>
+                        </li>
+                        <li>
+                          <p>
+                            <a class="text-muted" href="https://github.com/PaulMaldonado" target="_blank">
+                                <img :src="iconGithub" alt="GitHub" class="card-img-top github">
+                                GitHub
+                            </a>
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            <a class="text-muted" href="https://www.instagram.com/jpaulmn" target="_blank">
+                                <img :src="iconInstagram" alt="Instagram" class="card-img-top instagram">
+                                Instagram
+                            </a>
+                          </p>
+                        </li>
+                      </ul>
+              
+                    </div>
+              
+        
+              
+                  </div>
+              
+                </div>
+              
+                <div class="footer-copyright text-center py-3 text-muted">
+                    © 2020 - 2022 Jorge Paúl Todos los derechos Reservados
+                </div>
+              
+              </footer>
+        </footer>
+  </div>
 </template>
-
 
 <script>
 export default {
-    data() {
+     data() {
         return {
-            logo: '${{ JPaúlmn }}',
-            footerLogo: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/logo-footer.svg',
             iconTwitter: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/twitter-icon.svg',
             iconGithub: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/github-icon.svg',
             iconInstagram: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/instagram-icon.svg'
@@ -59,13 +81,7 @@ export default {
 }
 </script>
 
-
 <style scoped>
-    .footer {
-        margin-top: 100px;
-        background-color: #1D2E45 !important;
-    }
-
     .twitter {
        width: 40px;
        height: 40px;
@@ -82,15 +98,21 @@ export default {
     }
 
     .logo-footer {
-        width: 140px;
-        height: 140px;
+        width: 80px;
+        height: 80px;
+        border-radius: 300px;
+        border: 2px solid #243746;
     }
 
-    h5 {
-        color: #FFFFFF;
+    .title-footer {
+        color: #243746;
     }
 
-    small {
-        color: #D0CDE1;
+    .socials {
+        color: #243746;
+    }
+
+    .border-color {
+        border: 1px solid#243746;
     }
 </style>
