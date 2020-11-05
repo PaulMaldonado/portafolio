@@ -1,6 +1,6 @@
 <template>
   <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-navbar p-2 fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-navbar p-2">
           <a class="navbar-brand" href="/">
             <img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/foto-curriculum.jpg" 
             class="d-inline-block align-top paul-logo" 

@@ -61,7 +61,7 @@
                 </div>
               
                 <div class="footer-copyright text-center py-3 text-muted">
-                    © 2020 - 2022 Jorge Paúl Todos los derechos Reservados
+                    © 2020 - 2021 Jorge Paúl Todos los derechos Reservados
                 </div>
               
               </footer>

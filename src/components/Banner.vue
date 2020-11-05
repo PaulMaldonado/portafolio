@@ -4,7 +4,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 text-lg-left text-center ml-auto mr-auto">
-                      <h1 class="title-banner">!Hola✌! soy Jorge Paúl.</h1>
+                      <h1 class="title-banner mt-4">!Hola✌! soy Jorge Paúl.</h1>
                       <hr>
                       <p class="description-over-me mt-2">
                           Soy Frontend Developer actualmente estoy enfocado al mundo del desarrollo web con JavaScript,
@@ -42,14 +42,14 @@ export default {
     .hero-banner {
         background-color: rgb(255, 255, 255);
         max-width: 100%;
-        height: 90vh;
+        height: 70vh;
     }
 
     .title-banner {
         font-size: 50px;
         color: #243746;
         font-weight: bold;
-        margin-top: 135px !important;
+       
     }
 
     .description-over-me {
@@ -60,7 +60,7 @@ export default {
 
     .hero-image {
         max-width: 100%;
-        height: 100vh;
+        height: 70vh;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

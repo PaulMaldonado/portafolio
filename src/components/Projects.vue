@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row mt-4">
           <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card projects border-for-projects">
+            <div class="card mt-4 border-for-projects">
               <img :src="gestionClient" alt="Gestion de clientes" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Sistema de Gestion de clientes</h5>
@@ -18,7 +18,7 @@
           </div>
 
           <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card projects border-for-projects">
+            <div class="card mt-4 border-for-projects">
               <img :src="sitioWeb" alt="Sitio web personal" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Sitio web de la empresa</h5>
@@ -32,7 +32,7 @@
           </div>
 
           <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card projects border-for-projects">
+            <div class="card mt-4 border-for-projects">
               <img :src="bytechWeb" alt="Sitio web de bytech" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Sitio web de Bytech</h5>
@@ -45,7 +45,7 @@
           </div>
 
           <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card projects border-for-projects">
+            <div class="card mt-4 border-for-projects">
               <img :src="vitalviWeb" alt="Sitio web de viltavi" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Sitio web para Vitalvi</h5>
@@ -56,7 +56,7 @@
           </div>
 
           <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card projects border-for-projects">
+            <div class="card mt-4 border-for-projects">
               <img :src="cbta" alt="Sitio web del cbta258" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Sitio web para preparatoria cbta258</h5>
@@ -69,7 +69,7 @@
           </div>
 
           <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card projects border-for-projects">
+            <div class="card mt-4 border-for-projects">
               <img :src="techDesign" alt="Sitio web para tech design" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Sitio web desarrollado para Tech Design</h5>
@@ -82,7 +82,7 @@
           </div>
 
           <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card projects border-for-projects">
+            <div class="card mt-4 border-for-projects">
               <img :src="buyPayments" alt="Sitio web creado con expressjs" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Sitio web desarrollado con expressjs, MySql, Stripe, Nodejs, Bootstrap Css</h5>
