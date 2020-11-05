@@ -146,6 +146,26 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card mt-4 shadow-card">
+              <img :src="billar" alt="Sitio web creado con expressjs" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Sistema de inventario para billar los núñez</h5>
+                <p class="card-text">
+                  Tecnologias usadas
+                </p>
+
+                <img :src="html" alt="Tecnología HTML" class="card-img-top card-link html">
+                <img :src="css" alt="Tecnología CSS" class="card-img-top card-link css">
+                <img :src="bootstrap" alt="Tecnología Bootstrap" class="card-img-top card-link bootstrap">
+                <img :src="javascript" alt="Tecnología Javascript" class="card-img-top card-link javascript">
+                <img :src="vuejs" alt="Tecnología Vuejs" class="card-img-top card-link vuejs">
+                <img :src="php" alt="tecnología PHP" class="card-img-top card-link php">
+                <img :src="mysql" alt="Tecnología MySql" class="card-img-top card-link mysql">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -174,6 +194,7 @@ export default {
       vuejs: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/vuejs.svg',
       nodejs: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/nodejs.svg',
       stripe: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/stripe.svg',
+      billar: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/billar-nuñez.png',
     }
   }
 }
