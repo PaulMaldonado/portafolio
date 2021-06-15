@@ -1,28 +1,19 @@
 <template>
   <div>
-      <div class="hero-banner">
+      <div class="hero-banner p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
           <div class="container">
-              <div class="row">
-                  <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 text-lg-left text-center ml-auto mr-auto">
-                      <h1 class="title-banner mt-4">!Hola✌! soy Jorge Paúl.</h1>
-                      <hr>
-                      <p class="description-over-me mt-2">
-                          Soy Frontend Developer actualmente estoy enfocado al mundo del desarrollo web con JavaScript,
-                          Vue.js y Express.js, entre otros más. 
-                          <br><br>
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1 class="title-banner mt-4">!Hola✌! soy Jorge Paúl.</h1>
+                    <hr>
+                    <p class="description-over-me lead my-4">
+                        Soy Frontend Developer actualmente estoy enfocado al mundo del desarrollo web con JavaScript,
+                        Vue.js y Express.js, entre otros más.
+                    </p>
+                </div>
 
-                          Mi objetivo es poder seguir aprediendo y mejorando mis habilidades como Desarrollador Frontend.
-                          <br><br>
-
-                          Si te gustaria saber más sobre mí, buscame en mis redes sociales que las podras encontrar
-                          en el footer.
-                      </p>
-                  </div>
-
-                  <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8 d-lg-block d-none">
-                      <img :src="heroImage" alt="hero image" class="d-lg-block d-none hero-image img-responsive">
-                  </div>
-              </div>
+                <img :src="heroImage" alt="hero image" class="img-fluid w-50 d-none d-sm-block">
+            </div>
           </div>
       </div>
   </div>
@@ -40,22 +31,20 @@ export default {
 
 <style scoped>
     .hero-banner {
-        background-color: rgb(255, 255, 255);
-        max-width: 100%;
-        height: 70vh;
+        background-color: #24263B;
     }
 
     .title-banner {
-        font-size: 50px;
-        color: #243746;
-        font-weight: bold;
-       
+        font-size: 46px;
+        color: #FFFFFF;
+        font-weight: 700;
     }
 
     .description-over-me {
-        font-size: 18px;
-        color: #243746;
-        font-weight: normal;
+        font-size: 26px;
+        color:#DFDFDF;
+        font-weight: 300;
+        line-height: 40px;
     }
 
     .hero-image {
@@ -64,10 +53,12 @@ export default {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
     }
 
     hr {
         background-color: #5DD286;
-        padding: 4px;
+        padding: 2px;
+        width: 90%;
     }
 </style>

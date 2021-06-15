@@ -1,6 +1,6 @@
 <template>
   <div>
-      <footer>
+      <footer class="bg-footer">
             <footer class="page-footer font-small pt-4">
                 <div class="container text-center text-md-left">
             
@@ -11,7 +11,7 @@
               
                       <img src="../../public/paul-logo.jpg" alt="Logo" class="img-responsive logo-footer"><br><br>
                       <h5 class="font-weight-bold text-uppercase mb-4 title-footer">Jorge Paúl</h5>
-                      <p class="text-muted">
+                      <p class="text-description">
                         Soy Frontend Developer actualmente estoy enfocado al mundo del desarrollo web con JavaScript,
                         Vue.js y Express.js, entre otros más.
                       </p>
@@ -29,24 +29,20 @@
                         <li>
                         <p>
                             <a class="text-muted" href="https://twitter.com/jpaulmn" target="_blank">
-                                <img :src="iconTwitter" alt="Twitter" class="card-img-top twitter">
-                                Twitter
+                                <div>
+                                  <img :src="iconTwitter" alt="Twitter" class="card-img-top twitter">
+                                  <span class="twitter-text">Twitter</span>
+                                </div>
                             </a>
                          </p>
                         </li>
                         <li>
                           <p>
                             <a class="text-muted" href="https://github.com/PaulMaldonado" target="_blank">
-                                <img :src="iconGithub" alt="GitHub" class="card-img-top github">
-                                GitHub
-                            </a>
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            <a class="text-muted" href="https://www.instagram.com/jpaulmn" target="_blank">
-                                <img :src="iconInstagram" alt="Instagram" class="card-img-top instagram">
-                                Instagram
+                                <div>
+                                  <img :src="iconGithub" alt="GitHub" class="card-img-top github">
+                                  <span class="github-text ml-2">GitHub</span>
+                                </div>
                             </a>
                           </p>
                         </li>
@@ -60,7 +56,7 @@
               
                 </div>
               
-                <div class="footer-copyright text-center py-3 text-muted">
+                <div class="footer-copyright text-center py-3 text-reserved">
                     © 2020 - 2021 Jorge Paúl Todos los derechos Reservados
                 </div>
               
@@ -82,9 +78,17 @@ export default {
 </script>
 
 <style scoped>
+    .text-reserved {
+      color:#BDBDC1;
+    }
+
     .twitter {
        width: 40px;
        height: 40px;
+    }
+
+    .twitter-text {
+      color:#BDBDC1;
     }
 
     .github {
@@ -92,27 +96,34 @@ export default {
        height: 40px;
     }
 
-    .instagram {
-       width: 40px;
-       height: 40px;
+    .github-text {
+      color:#BDBDC1;
     }
 
     .logo-footer {
         width: 80px;
         height: 80px;
         border-radius: 300px;
-        border: 2px solid #243746;
+        border: 2px solid#BDBDC1;
     }
 
     .title-footer {
-        color: #243746;
+        color:#FFFFFF;
     }
 
     .socials {
-        color: #243746;
+        color:#FFFFFF;
+    }
+
+    .text-description {
+      color:#BDBDC1;
     }
 
     .border-color {
         border: 1px solid#243746;
+    }
+
+    .bg-footer {
+      background-color: #24263B;
     }
 </style>

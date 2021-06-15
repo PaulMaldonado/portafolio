@@ -2,7 +2,7 @@
   <section id="section-portafolio">
     <div>
       <div class="container">
-        <div class="row mt-4">
+        <div class="row">
           <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
             <div class="card mt-4 shadow-card">
               <img :src="gestionClient" alt="Gestion de clientes" class="card-img-top">
@@ -207,8 +207,7 @@ export default {
     }
 
     #section-portafolio {
-      background-color: #FFFFFF;
-      max-width: 100%;
+      background-color:#23263A;
     }
 
     .projects {
