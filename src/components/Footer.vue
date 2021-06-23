@@ -3,7 +3,7 @@
       <footer class="bg-footer p-5 text-white text-center position-relative">
           <div class="container">
             <p class="lead copy">
-              Copyright &copy; 2021 <span class="reserved">Jorge Paúl Maldonado Núñez</span>
+              Copyright &copy; 2021 <span class="reserved">JPaúlmn</span>
             </p>
           </div>
       </footer>
