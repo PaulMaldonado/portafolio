@@ -2,17 +2,17 @@
   <div>
       <div class="hero-banner p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
           <div class="container">
-            <div class="d-sm-flex align-items-center justify-content-between">
+            <div class="d-sm-flex align-items-centerjustify-content-between">
                 <div>
                     <h1 class="title-banner mt-4">!Hola✌! soy Jorge Paúl.</h1>
                     <hr>
                     <p class="description-over-me lead my-4">
-                        Soy Frontend Developer actualmente estoy enfocado al mundo del desarrollo web con JavaScript,
+                        Soy FullStack Developer actualmente estoy enfocado al mundo del desarrollo web con JavaScript,
                         Vue.js y Express.js, entre otros más.
                     </p>
                 </div>
 
-                <img :src="heroImage" alt="hero image" class="img-fluid w-50 d-none d-sm-block">
+                <img src="../../public/image-web/hero-image.svg" alt="hero image" class="ml-4 img-fluid w-50 d-none d-sm-block">
             </div>
           </div>
       </div>
@@ -23,7 +23,7 @@
 export default {
     data() {
         return {
-            heroImage: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/code-banner.svg'
+            
         }
     }
 }
@@ -57,7 +57,7 @@ export default {
     }
 
     hr {
-        background-color: #5DD286;
+        background-color:#572839;
         padding: 2px;
         width: 90%;
     }

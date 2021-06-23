@@ -1,16 +1,12 @@
 <template>
   <div>
-      <div class="skills-me">
+      <div class="skills-me p-5">
           <div class="container">
-              <h1 class="text-center title-me p-3">Sobre mí</h1>
-              <p class="text-left description-me">
-                  Mí nombre completo es: Jorge Paúl Maldonado Núñez y soy originario de Guadalajara jal. Soy Desarrollador Frontend, las Tecnologías que más me apacionan son: Javascript y PHP. Soy un apacionado de la Tecnología
-                  y me encanta estar aprendiendo constamente sobre nuevos temas y tecnologías.
-              </p>
+              <h1 class="text-center title-me p-3">Mis skills</h1>
               <div class="row">
                   <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
-                      <p class="mt-4">
-                          <img :src="html" alt="HTML5" class="card-img-top html">
+                      <p class="mt-4 html-text">
+                          HTML
                       </p>
                       <div class="progress">
                          <div class="progress-bar html-progress" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">95%</div>
@@ -18,8 +14,8 @@
                   </div>
 
                   <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
-                      <p class="mt-4">
-                          <img :src="css" alt="Css" class="card-img-top css">
+                      <p class="mt-4 css-text">
+                          Css
                       </p>
                       <div class="progress">
                          <div class="progress-bar css-progress" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
@@ -27,8 +23,8 @@
                   </div>
 
                   <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
-                      <p class="mt-4">
-                          <img :src="bootstrap" alt="Bootstrap css" class="card-img-top bootstrap">
+                      <p class="mt-4 bootstrap-text">
+                          Bootstrap css
                       </p>
                       <div class="progress">
                          <div class="progress-bar bootstrap-progress" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">85%</div>
@@ -36,8 +32,8 @@
                   </div>
 
                   <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
-                      <p class="mt-4">
-                          <img :src="javascript" alt="JavaScript" class="card-img-top javascript">
+                      <p class="mt-4 javascript-text">
+                          JavaScript
                       </p>
                       <div class="progress">
                          <div class="progress-bar javascript-progress" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
@@ -45,8 +41,8 @@
                   </div>
 
                   <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
-                      <p class="mt-4">
-                          <img :src="php" alt="PHP" class="card-img-top php">
+                      <p class="mt-4 php-text">
+                          PHP
                       </p>
                       <div class="progress">
                          <div class="progress-bar php-progress" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
@@ -54,8 +50,8 @@
                   </div>
 
                   <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
-                      <p class="mt-4">
-                          <img :src="vuejs" alt="Vuejs" class="card-img-top vuejs">
+                      <p class="mt-4 vue-text">
+                          Vue js
                       </p>
                       <div class="progress">
                          <div class="progress-bar vue-progress" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
@@ -63,17 +59,17 @@
                   </div>
 
                   <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
-                      <p class="mt-4">
-                          <img :src="nodejs" alt="Nodejs" class="card-img-top nodejs">
+                      <p class="mt-4 node-text">
+                         Node js
                       </p>
                       <div class="progress">
-                         <div class="progress-bar nodejs-progress" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
+                         <div class="progress-bar nodejs-progress" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><span class="skill-count">80%</span></div>
                       </div>
                   </div>
 
                   <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
-                      <p class="mt-4">
-                          <img :src="mysql" alt="MySql" class="card-img-top mysql">
+                      <p class="mt-4 mysql-text">
+                          MySql
                       </p>
                       <div class="progress">
                          <div class="progress-bar mysql-progress" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
@@ -89,14 +85,7 @@
 export default {
     data() {
         return {
-            html: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/html5.svg',
-            css: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/css3.svg',
-            bootstrap: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/bootstrap.svg',
-            javascript: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/javascript.svg',
-            php: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/php.svg',
-            vuejs: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/vuejs.svg',
-            nodejs: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/nodejs.svg',
-            mysql: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/mysql.svg',
+            
         }
     }
 }
@@ -107,88 +96,87 @@ export default {
         background-color:#1F2235;
     }
 
+    span.skill-count {
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .html-text {
+        color: #FFF8D8;
+        font-weight: 500;
+    }
+
+    .mysql-text {
+        color: #FFF8D8;
+        font-weight: 500;
+    }
+
+    .node-text {
+        color: #FFF8D8;
+        font-weight: 500;
+    }
+
+    .vue-text {
+        color: #FFF8D8;
+        font-weight: 500;
+    }
+
+    .php-text {
+        color: #FFF8D8;
+        font-weight: 500;
+    }
+
+    .bootstrap-text {
+        color: #FFF8D8;
+        font-weight: 500;
+    }
+
+    .javascript-text {
+        color: #FFF8D8;
+        font-weight: 500;
+    }
+
     .title-me {
         font-size: 2rem;
         color:#FFFFFF;
         font-weight: bold;
     }
 
-    .description-me {
-        font-size: 1em;
-        color:#BDBDC1;
-        font-weight: normal;
-        line-height: 30px;
-    }
-
-    .html {
-        width: 40px;
-        height: 40px;
-    }
-
     .html-progress {
-        background-color: #E8783B;
+        background-color:#A92B37;
     }
 
-    .css {
-        width: 40px;
-        height: 40px;
+    .css-text {
+        color: #FFF8D8;
+        font-weight: 500;
     }
 
     .css-progress {
-        background-color: #1572B6;
-    }
-
-    .bootstrap {
-        width: 40px;
-        height: 40px;
+        background-color:#A92B37;
     }
 
     .bootstrap-progress {
-        background-color: #563D7C;
-    }
-
-    .javascript {
-        width: 40px;
-        height: 40px;
+        background-color:#A92B37;
     }
 
     .javascript-progress {
-        background-color: #F7DF1E;
-    }
-
-    .php {
-        width: 40px;
-        height: 40px;
+        background-color:#A92B37;
     }
 
    .php-progress {
-       background-color: #777BB3;
+       background-color:#A92B37;
    }
-
-   .vuejs {
-        width: 40px;
-        height: 40px;
-    }
 
     .vue-progress {
-       background-color: #41B883;
+       background-color:#A92B37;
    }
-
-   .nodejs {
-        width: 40px;
-        height: 40px;
-    }
 
     .nodejs-progress {
-       background-color: #A9DC6B;
+       background-color:#A92B37;
    }
 
-   .mysql {
-        width: 40px;
-        height: 40px;
-    }
-
     .mysql-progress {
-        background-color: #CE8B2C;
+        background-color:#A92B37;
     }
 </style>

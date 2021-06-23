@@ -1,6 +1,6 @@
 <template>
   <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-navbar py-3">
+      <nav class="navbar navbar-expand-lg navbar-bg-color bg-dark py-3">
           <div class="container">
             <a class="navbar-brand" href="/">
                 <img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/img/foto-curriculum.jpg" 
@@ -29,7 +29,7 @@
 </template>
 
 <style scoped>
-    .bg-navbar {
+    .navbar-bg-color {
         background-color: #1F2235 !important;
     }
 

@@ -2,6 +2,7 @@
   <div>
     <Banner />
     <Skills />
+    <About />
     <Footer />
   </div>
 </template>
@@ -10,6 +11,7 @@
 // @ is an alias to /src
 import Banner from '@/components/Banner'
 import Skills from '@/components/Skills'
+import About from '@/components/About'
 import Footer from '@/components/Footer'
 
 export default {
@@ -17,6 +19,7 @@ export default {
   components: {
    Banner,
    Skills,
+   About,
    Footer
   }
 }
