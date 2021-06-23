@@ -3,6 +3,7 @@
       <div class="skills-me p-5">
           <div class="container">
               <h1 class="text-center title-me p-3">Mis skills</h1>
+              <hr>
               <div class="row">
                   <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
                       <p class="mt-4 html-text">
@@ -92,6 +93,12 @@ export default {
 </script>
 
 <style scoped>
+    hr {
+        background-color: #572839;
+        padding: 2px;
+        width: 14%;
+    }
+
     .skills-me {
         background-color:#1F2235;
     }

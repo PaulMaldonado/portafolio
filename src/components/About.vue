@@ -3,9 +3,9 @@
       <div class="container">
           <div class="row align-items-center justify-content-between">
               <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6 p-5">
-                  <span class="section-title mt-4">Sobre mí</span>
+                  <span class="section-title mt-4 text-sm-center">Sobre mí</span>
                   <h2 class="section-subtitle mt-4">Vamos a trabajar juntos</h2>
-                  <p class="section-description lead my-4">
+                  <p class="section-description lead my-4 text-sm-left">
                     Mí nombre completo es: Jorge Paúl Maldonado Núñez y soy originario de Guadalajara jal. Soy Desarrollador FullStack Developer, las Tecnologías que más me apacionan son: Javascript y PHP. Soy un apacionado de la Tecnología
                     y me encanta estar aprendiendo constamente sobre nuevos temas y tecnologías.
                   </p>
