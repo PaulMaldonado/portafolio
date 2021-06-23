@@ -21,5 +21,7 @@
 
   span.reserved {
     color: #A92B38;
+    margin-left: 6px;
+    font-size: 1rem;
   }
 </style>
