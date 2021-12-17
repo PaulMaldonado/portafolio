@@ -17,7 +17,7 @@
               </div>
 
               <div class="card-footer">
-                <a href="https://internetmx.com.mx/customer/master/index.php" target="_blank" class="btn btn-botton-color btn-block btn-lg">Visitar el sitio</a>
+                <a href="https://internetmxsis.internetmx.com.mx/" target="_blank" class="btn btn-botton-color btn-block btn-lg">Visitar el sitio</a>
               </div>
             </div>
           </div>
@@ -163,6 +163,88 @@
                 <img :src="vuejs" alt="Tecnología Vuejs" class="card-img-top card-link vuejs">
                 <img :src="php" alt="tecnología PHP" class="card-img-top card-link php">
                 <img :src="mysql" alt="Tecnología MySql" class="card-img-top card-link mysql">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card mt-4 shadow-card">
+              <img src="../../public/image-web/summary.png" alt="Sitio web creado con expressjs" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Order Summary</h5>
+                <p class="card-text">
+                  Tecnologias usadas
+                </p>
+
+                
+                <img :src="bootstrap" alt="Tecnología Bootstrap" class="card-img-top card-link bootstrap">
+
+              </div>
+
+               <div class="card-footer">
+                <a href="https://summary-order.vercel.app/" target="_blank" class="btn btn-botton-color btn-block btn-lg">Visitar el sitio</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card mt-4 shadow-card">
+              <img src="../../public/image-web/form.png" alt="Sitio web creado con expressjs" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Component signup</h5>
+                <p class="card-text">
+                  Tecnologias usadas
+                </p>
+
+                
+                <img :src="bootstrap" alt="Tecnología Bootstrap" class="card-img-top card-link bootstrap">
+
+              </div>
+
+               <div class="card-footer">
+                <a href="https://component-signup.vercel.app/" target="_blank" class="btn btn-botton-color btn-block btn-lg">Visitar el sitio</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card mt-4 shadow-card">
+              <img src="../../public/image-web/young-app.png" alt="Sitio web creado con expressjs" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Young app</h5>
+                <p class="card-text">
+                  Tecnologias usadas
+                </p>
+
+                
+                <img :src="bootstrap" alt="Tecnología Bootstrap" class="card-img-top card-link bootstrap">
+                <img :src="vuejs" alt="Tecnología Vuejs" class="card-img-top card-link vuejs">
+              </div>
+
+               <div class="card-footer">
+                <a href="https://comunidad-young.vercel.app/" target="_blank" class="btn btn-botton-color btn-block btn-lg">Visitar el sitio</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card mt-4 shadow-card">
+              <img src="../../public/image-web/qrcode.png" alt="Sitio web creado con expressjs" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Generate qr code</h5>
+                <p class="card-text">
+                  Tecnologias usadas
+                </p>
+
+                
+                <img :src="bootstrap" alt="Tecnología Bootstrap" class="card-img-top card-link bootstrap">
+                <img :src="vuejs" alt="Tecnología Vuejs" class="card-img-top card-link vuejs">
+              </div>
+
+               <div class="card-footer">
+                <a href="https://generate-qr-site.netlify.app/" target="_blank" class="btn btn-botton-color btn-block btn-lg">Visitar el sitio</a>
               </div>
             </div>
           </div>
