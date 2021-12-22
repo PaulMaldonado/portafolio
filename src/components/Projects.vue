@@ -82,27 +82,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card mt-4 shadow-card">
-              <img :src="cbta" alt="Sitio web del cbta258" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Sitio web para preparatoria cbta258 de San Luis Potosí</h5>
-                <p class="card-text">
-                  Tecnologias usadas
-                </p>
-
-                <img :src="html" alt="Tecnología HTML" class="card-img-top card-link html">
-                <img :src="css" alt="Tecnología CSS" class="card-img-top card-link css">
-                <img :src="bootstrap" alt="Tecnología Bootstrap" class="card-img-top card-link bootstrap">
-                <img :src="javascript" alt="Tecnología Javascript" class="card-img-top card-link javascript">
-                <img :src="ruby" alt="Tecnología Ruby" class="card-img-top card-link ruby">
-              </div>
-
-              <div class="card-footer">
-                <a href="https://cbta258.vercel.app/" target="_blank" class="btn btn-botton-color btn-block btn-lg">Visitar el sitio</a>
-              </div>
-            </div>
-          </div>
+          
 
           <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 d-flex align-items-stretch">
             <div class="card mt-4 shadow-card">
